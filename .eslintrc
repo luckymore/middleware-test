@@ -1,0 +1,8 @@
+{
+  "extends": "eslint-config-egg",
+  "rules": {
+    "semi": "off",
+    "array-bracket-spacing": ["error", "always", { "objectsInArrays": false }],
+    "object-curly-spacing": ["error", "always", { "arraysInObject": false }]
+  }
+}
